@@ -1,0 +1,73 @@
+# Button
+
+This is an example of a button component.
+
+<code-bubble>
+
+```html
+<awc-button>My Button</awc-button>
+```
+
+```tsx
+import { AwcButton } from 'lit-starter-kit/react';
+
+export default () => {
+  return <AwcButton>My Button</AwcButton>;
+};
+```
+
+</code-bubble>
+
+## Variations
+
+Here are some examples of button variations.
+
+<code-bubble>
+
+```html
+<awc-button>My Button</awc-button>
+<awc-button variation="primary">My Button</awc-button>
+<awc-button variation="hollow">My Button</awc-button>
+<awc-button variation="transparent">My Button</awc-button>
+```
+
+```tsx
+import { AwcButton } from 'lit-starter-kit/react';
+
+export default () => {
+  return (
+    <>
+      <AwcButton>My Button</AwcButton>
+      <AwcButton variation="primary">My Button</AwcButton>
+      <AwcButton variation="hollow">My Button</AwcButton>
+      <AwcButton variation="transparent">My Button</AwcButton>
+    </>
+  );
+};
+```
+
+</code-bubble>
+
+## Disabled
+
+Here is an example of how to disable a button.
+
+<code-bubble>
+
+```html
+<awc-button disabled>My Button</awc-button>
+```
+
+```tsx
+import { AwcButton } from 'lit-starter-kit/react';
+
+export default () => {
+  return <AwcButton disabled>My Button</AwcButton>;
+};
+```
+
+</code-bubble>
+
+## API
+
+<wc-dox tag="awc-button"></wc-dox>
