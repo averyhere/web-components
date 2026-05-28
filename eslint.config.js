@@ -59,7 +59,7 @@ export default [
       'public/*',
       'react/*',
       'types/*',
-      'storybook-static/*',
+      'docs/*',
       'custom-elements.json',
       'vscode.css-custom-data.json',
       'vscode.html-custom-data.json',

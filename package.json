@@ -30,8 +30,8 @@
     "lint:eslint": "npx eslint",
     "lint:prettier": "npx prettier . --check",
     "prepare": "husky && npx playwright install-deps",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "storybook": "storybook dev -p 6006 -c ./docs",
+    "build-storybook": "storybook build -o ./docs"
   },
   "license": "MIT",
   "dependencies": {
