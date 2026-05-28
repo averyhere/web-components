@@ -4,77 +4,12 @@
 
 Welcome to my custom web component library.
 
-## Features
+Available on:
 
-This repository is designed to be a "batteries included" repo, so you can hit the ground running with what you need to start delivering components. This repo includes:
+- [npmjs](https://www.npmjs.com/package/@averyhere/web-components)
+- [github](https://www.github.com/averyhere/web-components)
 
-- ✅ Library and component scaffolding
-- ✅ [Storybook](https://storybook.js.org/docs/get-started/frameworks/web-components-vite?renderer=web-components) integration (with [helpers](https://www.npmjs.com/package/wc-storybook-helpers))
-- ✅ CDN build (in `/cdn`)
-- ✅ NPM build (in `/dist`)
-- ✅ Testing
-- ✅ Documentation
-- ✅ [React wrappers](https://wc-toolkit.com/integrations/react/) (in - `/react`)
-- ✅ [JSX integration](https://wc-toolkit.com/integrations/jsx/) - (in `/types`)
-- ✅ [Vue.js integration](https://www.npmjs.-com/package/-custom-element-vuejs-integration) (in `/types`)
-- ✅ [Svelte integration](https://www.npmjs.-com/package/-custom-element-svelte-integration) (in `/types`)
-- ✅ [Linter](https://wc-toolkit.com/integrations/wctools/) (in `/wc.config.js`)
-
-## Project Structure
-
-Understanding the project structure will help you navigate and customize the library:
-
-```text
-├── src/                    # Source code for your components
-│   ├── index.ts           # Main entry point
-│   └── components/        # Component definitions
-├── dist/                  # NPM package build output (generated)
-├── cdn/                   # CDN build output (generated)
-├── react/                 # React wrapper components (generated)
-├── types/                 # Framework type definitions (JSX, Vue, Svelte)
-├── plop-templates/        # Component generator templates
-├── public/                # Build outputs for CDN, HTML, and React
-└── .storybook/            # Storybook configuration
-```
-
-## Running the Code
-
-```bash
-# Build, watch, and start local Storybook
-npm run dev
-
-# Create new component
-npm run new
-
-# Run all linters
-npm run lint
-
-# Run ESLint
-npm run lint:eslint
-
-# Run Prettier check
-npm run lint:prettier
-
-# Auto-fix issues
-npm run format
-
-# Generate all final build assets
-npm run build
-
-# Build only CDN version
-npm run build:cdn
-
-# Build only React wrappers
-npm run build:react
-
-# Build static Storybook documentation
-npm run build-storybook
-
-# Run tests
-npm test
-```
-
-## Using Your Components
+## Quickstart
 
 Once built, your components can be used in multiple ways:
 
@@ -123,23 +58,77 @@ TypeScript and JSX support is included via the `/types` directory. Type definiti
 
 Framework-specific type integrations are provided in the `/types` directory for Vue.js and Svelte to ensure proper type checking and intellisense.
 
-## Publishing To NPM
+## Dev
 
-1. **Build and publish:**
-   ```bash
-   npm run build
-   npm publish
-   ```
+### Features
 
-   Or use the deploy script:
-   ```bash
-   npm run deploy
-   ```
+This repository is designed to be a "batteries included" repo, so you can hit the ground running with what you need to start delivering components. This repo includes:
 
-2. **For scoped packages:**
-   ```bash
-   npm publish --access public
-   ```
+- ✅ Library and component scaffolding
+- ✅ [Storybook](https://storybook.js.org/docs/get-started/frameworks/web-components-vite?renderer=web-components) integration (with [helpers](https://www.npmjs.com/package/wc-storybook-helpers))
+- ✅ CDN build (in `/cdn`)
+- ✅ NPM build (in `/dist`)
+- ✅ Testing
+- ✅ Documentation
+- ✅ [React wrappers](https://wc-toolkit.com/integrations/react/) (in - `/react`)
+- ✅ [JSX integration](https://wc-toolkit.com/integrations/jsx/) - (in `/types`)
+- ✅ [Vue.js integration](https://www.npmjs.-com/package/-custom-element-vuejs-integration) (in `/types`)
+- ✅ [Svelte integration](https://www.npmjs.-com/package/-custom-element-svelte-integration) (in `/types`)
+- ✅ [Linter](https://wc-toolkit.com/integrations/wctools/) (in `/wc.config.js`)
+
+### Project Structure
+
+Understanding the project structure will help you navigate and customize the library:
+
+```text
+├── src/                    # Source code for your components
+│   ├── index.ts           # Main entry point
+│   └── components/        # Component definitions
+├── dist/                  # NPM package build output (generated)
+├── cdn/                   # CDN build output (generated)
+├── react/                 # React wrapper components (generated)
+├── types/                 # Framework type definitions (JSX, Vue, Svelte)
+├── plop-templates/        # Component generator templates
+├── public/                # Build outputs for CDN, HTML, and React
+└── .storybook/            # Storybook configuration
+```
+
+### Running the Code
+
+```bash
+# Build, watch, and start local Storybook
+npm run dev
+
+# Create new component
+npm run new
+
+# Run all linters
+npm run lint
+
+# Run ESLint
+npm run lint:eslint
+
+# Run Prettier check
+npm run lint:prettier
+
+# Auto-fix issues
+npm run format
+
+# Generate all final build assets
+npm run build
+
+# Build only CDN version
+npm run build:cdn
+
+# Build only React wrappers
+npm run build:react
+
+# Build static Storybook documentation
+npm run build-storybook
+
+# Run tests
+npm test
+```
 
 ## License
 
