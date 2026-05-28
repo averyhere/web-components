@@ -1,6 +1,6 @@
 {
   "name": "@averyhere/web-components",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "My custom, Lit-based web component library.",
   "author": "Avery Ondo",
   "repository": {

@@ -1,11 +1,11 @@
 name: Publish Package
 
 on:
-  push:
-    branches:
-      - main
-  # release:
-  #   types: [created]
+  # push:
+  #   branches:
+  #     - main
+  release:
+    types: [created]
 
 jobs:
   build:
@@ -21,7 +21,7 @@ jobs:
       - run: npm test
 
   publish-npm:
-    name: Build
+    name: Build & Publish
     needs: build
     runs-on: ubuntu-latest
     steps:
